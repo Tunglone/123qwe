@@ -1,0 +1,46 @@
+1. Tạo một Mảng
+VD: var name = ['AAA', 'BBB'];
+
+2. Truy cập (bằng chỉ mục) đến một phần tử của Mảng
+VD: name[1];
+
+3. Lặp 1 mảng
+VD:
+  var arr = [{name: 'AAA', age: 21}, {name: 'BBB', age: 20}]
+  var xxx = arr.map((value, index)=>{
+    console.log(value.name + ': ' + value.age )
+  });
+  
+4. Thêm phần tử vào cuối Mảng
+VD:
+  var arr = [1, 2, 3, 4]
+  arr.push(5)
+
+5. Xóa phần tử từ cuối Mảng
+VD:
+  var arr = [1, 2, 3, 4];
+  arr.pop()
+  
+6. Xóa phần tử từ đầu Mảng
+VD:
+  var arr = [1, 2, 3, 4];
+  arr.shift()
+  
+7. Thêm phần tử vào đầu Mảng
+VD:
+  var arr = [1, 2, 3, 4];
+  arr.unshift(0)
+  
+8. Tìm chỉ mục của một phần tử trong Mảng
+VD:
+  var arr = [1, 2, 3, 4];
+  arr.indexOf(2)
+  
+9. Xóa một phần tử bằng chỉ mục của nó
+VD:
+  arr.splice(1, 1); // Xóa phần tử thứ x và y phần tử bắt đầu từ x: tenMang.splice(x, y)
+
+10. Sao chép một Mảng
+VD:
+  var arr = [1, 2, 3, 4];
+  var arrCopy = arr.slice()
