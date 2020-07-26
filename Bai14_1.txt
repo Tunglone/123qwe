@@ -1,0 +1,2 @@
+        // For in: Trả về index / key của một array / object
+        // For of: Trả về value của một array / object
